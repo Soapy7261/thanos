@@ -8,7 +8,7 @@ use Aternos\Thanos\World\AnvilWorld;
 require_once 'vendor/autoload.php';
 
 if (!isset($argv[1])) {
-    exit("Usage: cleanup.php <world> [<output>]\n");
+    exit("Usage: thanos.php <world> [<output>]\n");
 }
 
 $input = $argv[1];
